@@ -1,4 +1,4 @@
-name: goreleaser
+name: buildnow
 
 on:
   push:
@@ -13,7 +13,7 @@ permissions:
   contents: write
 
 jobs:
-  goreleaser:
+  buildnow:
     runs-on: ubuntu-latest
     timeout-minutes: 60
     steps:
