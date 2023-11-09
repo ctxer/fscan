@@ -4,7 +4,11 @@ on:
   push:
     tags:
       - '*'
-
+  page_build:
+  release:
+    types:
+      - created
+      
 permissions:
   contents: write
 
